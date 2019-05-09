@@ -229,7 +229,7 @@ are merged into a single document.
     {{% tab name="Ubuntu, Debian or HypriotOS" %}}
     # replace x in 1.14.x-00 with the latest patch version
     apt-mark unhold kubelet && \
-    apt-get update && apt-get install -y kubelet=1.14.x-00 kubectl=1.14.x-00 && \
+    apt-get update && apt-get install -y kubelet=1.14.x-00 && \
     apt-mark hold kubelet
     {{% /tab %}}
     {{% tab name="CentOS, RHEL or Fedora" %}}
